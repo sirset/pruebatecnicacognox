@@ -3,6 +3,7 @@
 @section('title', 'login')
 
 @section("content")
+<!-- login -->
     <main class="form-signin">
         @if (!empty($errors))
         @foreach($errors as $error)

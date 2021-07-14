@@ -3,7 +3,7 @@
 @section('title', 'login')
 
 @section("content")
-<!-- login -->
+<!-- login en rama 2 -->
     <main class="form-signin">
         @if (!empty($errors))
         @foreach($errors as $error)
